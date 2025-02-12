@@ -9,7 +9,7 @@ import SwiftUI
 
 @main
 struct CounterAppApp: App {
-    @StateObject var countModel = CounterViewModel()
+    @StateObject var countModel = UserDetailsViewModel()
     
     var body: some Scene {
         WindowGroup {
